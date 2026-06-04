@@ -1,27 +1,131 @@
-# ServicesDeepDive
+# Angular Task Management App – Services & Dependency Injection Deep Dive
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0.
+A feature-rich Angular Task Management application built to explore and master Angular's **Services** and **Dependency Injection (DI)** system. The project demonstrates how Angular manages shared state, service instances, dependency resolution, and custom providers through a practical real-world application.
 
-## Development server
+## 🌐 Live Demo
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+https://angular-task-management-app-service.vercel.app/
 
-## Code scaffolding
+## 📖 Overview
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+This project was created to gain hands-on experience with Angular's dependency management architecture while building a functional task management application.
 
-## Build
+Users can create tasks, update their status, and filter tasks based on their current state. The application leverages Angular Services for centralized state management and demonstrates various Dependency Injection concepts used in scalable Angular applications.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🚀 Features
 
-## Running unit tests
+* Create new tasks with title and description
+* View all tasks in a clean task board
+* Filter tasks by status:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+  * All
+  * Open
+  * In-Progress
+  * Completed
+* Update task status dynamically
+* Color-coded task status badges
+* Responsive and modern dark-themed UI
+* Centralized task management using Angular Services
+* Reusable and modular component architecture
 
-## Running end-to-end tests
+## 🛠️ Angular Concepts Covered
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Services
 
-## Further help
+* Creating and consuming services
+* Sharing data across components
+* Managing application state with services
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Dependency Injection (DI)
+
+* Constructor-based dependency injection
+* Service registration and providers
+* Understanding Angular's injector system
+
+### Hierarchical Injectors
+
+* Root-level providers
+* Component-level providers
+* Service instance scope and lifetime
+
+### DI Resolution Process
+
+* How Angular resolves dependencies
+* Injector hierarchy traversal
+* Provider lookup mechanism
+
+### Injection Tokens & Values
+
+* Creating custom Injection Tokens
+* Providing primitive values
+* Using custom providers
+
+## 📂 Project Structure
+
+```text
+src/
+├── app/
+│   ├── components/
+│   ├── services/
+│   ├── models/
+│   └── shared/
+├── assets/
+└── styles/
+```
+
+## 🎯 Learning Objectives
+
+This project focuses on understanding:
+
+* How Angular Services work behind the scenes
+* The Dependency Injection lifecycle
+* Injector hierarchy and service scope
+* State management using services
+* Custom dependency providers and Injection Tokens
+* Building maintainable and scalable Angular applications
+
+## 🏃 Getting Started
+
+### Clone the repository
+
+```bash
+git clone <repository-url>
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Run the development server
+
+```bash
+ng serve
+```
+
+Navigate to:
+
+```text
+http://localhost:4200
+```
+
+## 🧰 Technologies Used
+
+* Angular
+* TypeScript
+* HTML5
+* CSS3
+
+## 📸 Application Highlights
+
+* Task creation form
+* Dynamic status updates
+* Task filtering functionality
+* Service-driven state management
+* Dependency Injection examples
+* Modern dark UI design
+
+## 📜 License
+
+This project is created for learning and educational purposes.
